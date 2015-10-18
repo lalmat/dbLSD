@@ -1,0 +1,20 @@
+{
+    "name": "lalmat/dbLSD",
+    "description": "Load-Save-Delete DAO/Entities Generator",
+    "type": "library",
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "autoload": {
+        "psr-4" : {
+            "lalmat\\dbLSD\\" : "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Lallemand",
+            "email": "lallemand.mathieu@gmail.com"
+        }
+    ]
+}
